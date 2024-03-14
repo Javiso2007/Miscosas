@@ -1,0 +1,192 @@
+
+.verde{
+    background: #2B792B;
+    height: 200px;
+    width: 450px;
+    display: inline-block;
+    margin-top: 100px;
+}
+.blanco{
+    background: white;
+    height: 200px;
+    width: 420px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.rojo{
+    background: #CC3333;
+    height: 200px;
+    width: 450px;
+    display: inline-block;
+}
+
+.tacos {
+    background: #EEBC51;
+    height: 50px;
+    color: white;
+    font-size: 40px;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+nav a{
+    font-weight: 650;
+    padding-right: 20px;
+}
+nav a:hover{
+    color: #B8B485;
+}
+header{
+    display: flex;
+    height: 50px;
+    width: 1300px;
+    justify-content: space-between;
+    background-color: #EED491;
+    font-family: sans-serif;
+    margin: 10px;
+    /* top: 250px; */
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    border-radius: 5px;
+    cursor: default;
+    transition: all 400ms ease;
+    z-index: 2;
+    box-shadow: 0px 1px 20px rgba(0,0,0,0.2);
+}
+header:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.logo :hover{
+    color: #B8B485;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+/* .var{
+    background: black;
+    width: 1350px;
+    height: 150px;
+    margin: 0px 0px 50px 0px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+.padre {
+    background-color: beige;
+    height: 1400px;
+    width: 1300px;
+    margin: 10px;
+   
+}
+.hijo1, .hijo2, .hijo3, .hijo4, .hijo5, .hijo6, .hijo7, .hijo8, .hijo9{
+    background-color: #ECD08A;
+    height: 400px;
+    width: 400px;
+    margin: 20px 20px 10px 10px;
+    display: inline-block;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 1px 20px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    padding: auto;
+
+}
+.hijo1:hover, .hijo2:hover, .hijo3:hover, .hijo4:hover, .hijo5:hover, .hijo6:hover, .hijo7:hover, .hijo8:hover, .hijo9:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.nieto{
+    background: url(tacos-al-pastor-receta.jpg);
+    background-size: cover;
+    height: 230px;
+    width: 400px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+.nieto2{
+    background: url(carne-asada-tacos1.jpg);
+    background-size: cover;
+    height: 230px;
+    width: 400px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+.nieto3{
+    background: url(foto-istock-enchilada-tamaño-web.jpg);
+    background-size: cover;
+    height: 230px;
+    width: 400px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+.nieto4{
+    background: url(IMG_7520-1-scaled.jpg);
+    background-size: cover;
+    height: 230px;
+    width: 400px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+.nieto5{
+    background: url(tacos-de-arrachera.jpg);
+    background-size: cover;
+    height: 230px;
+    width: 400px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+.nieto6{
+    background: url(tacos-de-lengua-fc3a1ciles-2000-737e71384563467187a57521bf5a1054.jpg);
+    background-size: cover;
+    height: 230px;
+    width: 400px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+.nieto7{
+    background: url(cochinita-pibil.jpg);
+    background-size: cover;
+    height: 230px;
+    width: 400px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+.nieto8{
+    background: url(maxresdefault.jpg);
+    background-size: cover;
+    height: 230px;
+    width: 400px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+.nieto9{
+    background: url(SuaderoTacos-main-e1620804994396.jpg);
+    background-size: cover;
+    height: 230px;
+    width: 400px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+.biznieto, .biznieto2,  .biznieto3, .biznieto4, .biznieto5, .biznieto6, .biznieto7, .biznieto8, .biznieto9{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
